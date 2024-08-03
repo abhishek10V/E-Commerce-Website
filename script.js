@@ -24,3 +24,15 @@ window.addEventListener("scroll", () => {
         toTop.classList.remove("active");
     }
 })
+
+function cartAdded(){
+    alert("Successfully added to cart");
+}
+
+function feedback(){
+    alert("Thanks for providing you valuable feedback, see you again!!!!");
+}
+
+function signUp(){
+    alert("Successfully Signed In for Newsletter")
+}

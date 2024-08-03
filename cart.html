@@ -129,9 +129,8 @@
       <form action="">
         <span>Leave a Message</span>
         <h2>We love to hear from you</h2>
-        <input type="text" placeholder="Enter your name" />
-        <input type="text" placeholder="Enter your Email" />
-        <input type="text" placeholder="Enter your Subjext" />
+        <input type="text" placeholder="Enter your name" required/>
+        <input type="email" placeholder="Enter your Email" required/>
         <textarea
           name=""
           id=""
@@ -139,7 +138,7 @@
           rows="10"
           placeholder="Your Message"
         ></textarea>
-        <button class="normal">Submit</button>
+        <button class="normal" onclick=feedback()>Submit</button>
       </form>
 
       <div class="people">
@@ -176,8 +175,8 @@
         <p>Lorem ipsum dolor sit amet <span>consectetur</span>.</p>
       </div>
       <div class="form">
-        <input type="text" placeholder="your email address" />
-        <button class="normal">Sign Up</button>
+        <input type="email" placeholder="your email address" required />
+        <button class="normal" onclick=signUp()>Sign Up</button>
       </div>
     </section>
 
